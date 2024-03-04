@@ -1,0 +1,22 @@
+html {
+    font-family: sans-serif;
+  }
+  
+  div {
+    width: 200px; /* Reasonable width for a large box */
+    height: 200px; /* Reasonable height for a large box */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto; /* Center the box horizontally */
+    font-size: 1.125rem; /* Font size calculated using the formula (desired font size / base font size) */
+    background-color: #6c5b7b; /* Base color for the box */
+    color: #fff; /* Contrasting color for text */
+    text-shadow: 1px 1px 2px black; /* Black text shadow */
+    border-radius: 8px; /* subtle border radius */
+    border: 1px solid #504158; /* 1-pixel solid border with a slightly darker shade */
+    background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0.2)); /* Linear semi-transparent black gradient */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Standard box shadow for raising the box */
+    box-shadow: inset 2px 2px 5px rgba(255, 255, 255, 0.3), inset -2px -2px 5px rgba(0, 0, 0, 0.3); /* Inset box shadows for 3D look */
+  }
+  
