@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    min-width: 1000px;
+    max-width: 1400px;
+    font-family: 'Serif', serif;
+    font-size: 10px; /* Site-wide font size */
+}
+
+h1, h2, p, li, a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem; /* Relative font size */
+    line-height: 1.5; /* Suitable line height */
+}
+
+h1 {
+    text-align: center; /* Centering top level heading */
+}
+
+h1, h2 {
+    letter-spacing: 1px; /* Letter spacing for headings */
+}
+
+p {
+    letter-spacing: 0.5px; /* Letter spacing for paragraphs */
+    word-spacing: 2px; /* Word spacing */
+}
+
+section p:first-of-type, aside p:first-of-type {
+    text-indent: 20px; /* Text indentation for first paragraphs after headings */
+}
+
+/* Links */
+
+a {
+    color: #a66; /* Link color to harmonize with page */
+    text-decoration: none; /* Remove default underline */
+}
+
+a:hover, a:focus {
+    text-decoration: none; /* Remove underline on hover and focus */
+    color: #888; /* Hover and focus color */
+}
+
+a:active {
+    color: #333; /* Active state color */
+}
+
+/* Lists */
+
+ul, ol {
+    padding: 0;
+    margin: 0;
+    list-style-type: none; /* Remove default list style */
+}
+
+li {
+    line-height: 1.5; /* Match line height with paragraphs */
+    margin-bottom: 10px; /* Spacing between list items */
+}
+
+/* Navigation menu */
+
+nav {
+    background-color: #a66; /* Harmonize with page */
+    height: 100%; /* Height to harmonize with page */
+    padding-top: 20px; /* Match padding with other sections */
+}
+
+nav ul {
+    text-align: center; /* Center align menu items */
+}
+
+nav li {
+    margin-bottom: 10px; /* Spacing between menu items */
+}
+
+nav a {
+    display: block; /* Make links block level */
+    padding: 10px; /* Padding for links */
+    color: #fff; /* Link color */
+}
+
+nav a:hover, nav a:focus {
+    background-color: #888; /* Hover and focus background color */
+}
+
+/* Footer */
+
+footer {
+    border-top: 5px solid #a66; /* Match border with header */
+    padding-top: 20px; /* Match padding with other sections */
+    text-align: center; /* Center align footer content */
+}
