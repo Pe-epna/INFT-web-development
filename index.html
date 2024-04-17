@@ -1,0 +1,56 @@
+<!--
+	Name: Joel Heickert
+	File: index.html
+	Date: 16 april 2024
+	animal site
+	-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Accessibility assessment</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style.css">
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to our wildlife website</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Our team</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Blog</a></li>
+      </ul>
+      <form class="search" aria-label="Search">
+        <input type="search" name="q" placeholder="Search query">
+        <input type="submit" value="Go!" aria-label="Submit search">
+      </form>
+    </nav>
+    <main>
+      <article>
+        <h2>The trouble with Bears</h2>
+        <!-- Article content -->
+      </article>
+      <aside>
+        <h2>About the author</h2>
+        <!-- Author information -->
+      </aside>
+      <section class="comments">
+        <button class="show-hide" aria-label="Show comments">Show comments</button>
+        <div class="comment-wrapper">
+          <!-- Comments section -->
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; Copyright 2050 by nobody. All rights reversed.</p>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
